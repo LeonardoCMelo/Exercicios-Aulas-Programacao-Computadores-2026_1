@@ -1,0 +1,5 @@
+vel = float(input("Digite o valor da velocidade: "))
+acc = float(input("Digite o valor da aceleração: "))
+time = float(input("Digite o valor do tempo: "))
+print(f"Velocidade final: {(vel + acc * time):.2f}")
+print(f"Distância percorrida: {vel * time + (acc*time**2)/2:.2f}")
